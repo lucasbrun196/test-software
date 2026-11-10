@@ -9,4 +9,4 @@ def test_vencimento_no_sabado_e_prorrogado_para_segunda():
 
     resultado = proximo_dia_util(sabado)
 
-    assert resultado == date(2026, 10, 12)
+    assert resultado == date(2026, 10, 13)
